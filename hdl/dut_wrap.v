@@ -3,9 +3,7 @@ module dut_wrap(
 	      input wire b,
 	      output wire y
 );
-dut dut(.a(a),
-        .b(b),
-        .y(y));
+dut dut(.a(a),.b(b),.y(y));
 initial begin
         $dumpfile("waves.vcd");
         $dumpvars;
