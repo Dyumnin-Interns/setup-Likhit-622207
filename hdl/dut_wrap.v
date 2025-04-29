@@ -1,5 +1,5 @@
 module dut_wrap(
-        input wire a,
+              input wire a,
 	      input wire b,
 	      output wire y
 );
